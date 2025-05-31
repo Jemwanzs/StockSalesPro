@@ -10,7 +10,7 @@ import { Edit, Plus, Receipt, AlertTriangle } from 'lucide-react';
 import { useAppContext } from '@/contexts/AppContext';
 import type { User } from './InventoryApp';
 
-const paymentModes = ['m-pesa', 'cash', 'bank', 'debt', 'other'] as const;
+const paymentModes = ['m-pesa', 'cash', 'bank', 'unpaid', 'other'] as const;
 
 interface SalesTabProps {
   user: User;
